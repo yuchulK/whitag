@@ -1,0 +1,124 @@
+  html,body,ul,input,a,p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.searchTxt {
+padding-top: 13px;
+display: inline-block;
+}
+  #count,  #search {
+    border:  none;
+    display: inline-block;
+    vertical-align: top;
+    background:  #fff;
+    width:  150px;
+    height:  30px;
+    margin:  10px 0 0 10px;
+    padding: 4px;
+  }
+  .txtTitle {
+    font-size:  20px;
+    margin:  10px 0 10px 10px;
+    background:  #eee;
+    border-radius: 4px 0 0 4px;
+    border-style: none;
+    height: 30px;
+    vertical-align: top;
+  }
+  .save {
+    background: #eee;
+    text-decoration: none;
+    color:  #333;
+    font-weight: bold;
+    padding:  5px;
+    border-radius: 0 4px 4px 0;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+    margin-top:  10px ;
+    height:  30px;
+  }
+  .tagBox {
+    margin:  10px;
+  }
+  .tag {
+    display: inline-block;
+    background:  #eee;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color:  #333;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .tag:hover {
+    opacity: .7;
+  }
+  .header {
+    width: 100%;
+    background: #78B1AE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    height: 100px
+  }
+  .footer {
+    width: 100%;
+    background: #78B1AE;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    height: 50px
+  }
+
+  #before, #after {
+    border:  solid 1px #333;
+    width:  50%;
+    min-height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+    font-size : 22px;
+    padding: 120px 20px 70px 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: scroll;
+  }
+  #before {
+    background : #333;
+    color:  #fff;
+    font-size: 18px;
+  }
+  #after h2 {
+    font-size:  24px;
+    font-weight: bold;
+    margin-top: 48px;
+  }
+  #after h2:first-child {
+    margin-top: 0;
+  }
+  #after h3 {
+    font-size : 18px;
+    font-weight: bold;
+  }
+  #after .red {
+    color: red;
+  }
+  #after table {
+    border:  solid 1px #333;
+  }
+  #after tr {
+    border:  solid 1px #333;
+  }
+  #after td {
+    border:  solid 1px #333;
+  }
+  .mark {
+    background: #eee;
+  }
+  .right {
+    text-align: right;
+  }
